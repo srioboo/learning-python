@@ -1,0 +1,10 @@
+lista_nombres = ["Salva", "Pedro", "Enrique", "Koji"]
+lista_edades = [24, 34, 50, 32]
+
+datos_zip = zip(lista_nombres, lista_edades)
+print(list(datos_zip))
+
+# zip usa la lista con menor numero de elementos
+
+for nombre, edad in zip(lista_nombres, lista_edades):
+    print(nombre, edad)

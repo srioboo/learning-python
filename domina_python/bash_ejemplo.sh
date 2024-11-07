@@ -1,0 +1,1 @@
+echo "Imprimiendo desde bash"
